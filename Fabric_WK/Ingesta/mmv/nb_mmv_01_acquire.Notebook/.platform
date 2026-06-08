@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "nb_mmv_01_acquire",
+    "description": ""
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "20202404-2371-9c4b-4dd6-24ed70247e1b"
+  }
+}

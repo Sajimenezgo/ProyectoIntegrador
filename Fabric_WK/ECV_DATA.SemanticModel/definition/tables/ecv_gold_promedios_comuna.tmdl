@@ -1,0 +1,206 @@
+table ecv_gold_promedios_comuna
+	lineageTag: 32f3aefe-a1a8-4c5a-889e-701fe6db7ebc
+	sourceLineageTag: [dbo].[ecv_gold_promedios_comuna]
+
+	column YEAR
+		dataType: int64
+		formatString: 0
+		lineageTag: 42392933-6f5c-44fc-a068-696afff61d4c
+		sourceLineageTag: YEAR
+		summarizeBy: sum
+		sourceColumn: YEAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMUNA_STD
+		dataType: string
+		lineageTag: 653139eb-6714-4cec-8d06-678cb2d6d2e2
+		sourceLineageTag: COMUNA_STD
+		summarizeBy: none
+		sourceColumn: COMUNA_STD
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTRATO_STD
+		dataType: double
+		lineageTag: 43a410ae-c78f-4213-8b5a-0d5096624dc2
+		sourceLineageTag: ESTRATO_STD
+		summarizeBy: sum
+		sourceColumn: ESTRATO_STD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column EDUCACION_STD
+		dataType: double
+		lineageTag: 4f9ebf19-2240-434c-b1a8-a6ef0930b378
+		sourceLineageTag: EDUCACION_STD
+		summarizeBy: sum
+		sourceColumn: EDUCACION_STD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ALFABETISMO
+		dataType: double
+		lineageTag: 02d380c2-06a3-4b8e-8129-ec27b9f9c12f
+		sourceLineageTag: ALFABETISMO
+		summarizeBy: sum
+		sourceColumn: ALFABETISMO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DIM_RECREACION
+		dataType: double
+		lineageTag: 02364957-b137-405d-bc43-8a37854d0b53
+		sourceLineageTag: DIM_RECREACION
+		summarizeBy: sum
+		sourceColumn: DIM_RECREACION
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column IND_DISCRIMINACION
+		dataType: double
+		lineageTag: 2e2432f1-f452-4920-9960-6e17e5b208bf
+		sourceLineageTag: IND_DISCRIMINACION
+		summarizeBy: sum
+		sourceColumn: IND_DISCRIMINACION
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column IND_BRECHA_PERCEPCION
+		dataType: double
+		lineageTag: 9eebd159-92ab-4f25-9a63-42fb9a1cf02b
+		sourceLineageTag: IND_BRECHA_PERCEPCION
+		summarizeBy: sum
+		sourceColumn: IND_BRECHA_PERCEPCION
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DIM_PARTICIPACION
+		dataType: double
+		lineageTag: 2c8ee03e-d013-4e0c-b8e8-5e0d13cff5f8
+		sourceLineageTag: DIM_PARTICIPACION
+		summarizeBy: sum
+		sourceColumn: DIM_PARTICIPACION
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DIM_MEDIO_AMBIENTE
+		dataType: double
+		lineageTag: 6f0bb775-f94c-4d3c-9acf-67eefbe8e5b6
+		sourceLineageTag: DIM_MEDIO_AMBIENTE
+		summarizeBy: sum
+		sourceColumn: DIM_MEDIO_AMBIENTE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DIM_MOVILIDAD
+		dataType: double
+		lineageTag: 8a3b698b-d94f-4927-a3cb-457f111d71ec
+		sourceLineageTag: DIM_MOVILIDAD
+		summarizeBy: sum
+		sourceColumn: DIM_MOVILIDAD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SATISFACCION_MUNICIPIO
+		dataType: double
+		lineageTag: bf9ca5a4-4fe3-42dd-8190-f3b88da7c969
+		sourceLineageTag: SATISFACCION_MUNICIPIO
+		summarizeBy: sum
+		sourceColumn: SATISFACCION_MUNICIPIO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CONFIANZA_INSTITUCIONES
+		dataType: double
+		lineageTag: b8795aaf-80a5-4dff-bf63-9c38e0d31d20
+		sourceLineageTag: CONFIANZA_INSTITUCIONES
+		summarizeBy: sum
+		sourceColumn: CONFIANZA_INSTITUCIONES
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CUMPLIMIENTO_NORMAS
+		dataType: double
+		lineageTag: daeea49e-c5cc-4718-802d-a19b94c321f7
+		sourceLineageTag: CUMPLIMIENTO_NORMAS
+		summarizeBy: sum
+		sourceColumn: CUMPLIMIENTO_NORMAS
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DIM_SEGURIDAD_ALIMENTARIA
+		dataType: double
+		lineageTag: 022caf26-0df6-4ac9-9a0d-376cec0c580d
+		sourceLineageTag: DIM_SEGURIDAD_ALIMENTARIA
+		summarizeBy: sum
+		sourceColumn: DIM_SEGURIDAD_ALIMENTARIA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DIM_CAPITAL_FISICO
+		dataType: double
+		lineageTag: c830663c-e6bd-4c97-b9b1-743cdd6a6d1b
+		sourceLineageTag: DIM_CAPITAL_FISICO
+		summarizeBy: sum
+		sourceColumn: DIM_CAPITAL_FISICO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column INDICE_CARENCIA_SERVICIOS
+		dataType: double
+		lineageTag: 5f2d3268-8631-4b4c-880e-2e8e65257fa5
+		sourceLineageTag: INDICE_CARENCIA_SERVICIOS
+		summarizeBy: sum
+		sourceColumn: INDICE_CARENCIA_SERVICIOS
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column IND_HACINAMIENTO
+		dataType: double
+		lineageTag: 9d5a228e-d739-4012-be87-db56a58f5bde
+		sourceLineageTag: IND_HACINAMIENTO
+		summarizeBy: sum
+		sourceColumn: IND_HACINAMIENTO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition ecv_gold_promedios_comuna = entity
+		mode: directLake
+		source
+			entityName: ecv_gold_promedios_comuna
+			schemaName: dbo
+			expressionSource: 'DirectLake - Data_LakeHouse'
+

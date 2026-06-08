@@ -1,0 +1,29 @@
+table diccionario_comunas
+	lineageTag: 1ccdf454-093e-417c-a240-7431eba20ef2
+	sourceLineageTag: [dbo].[diccionario_comunas]
+
+	column codigo_comuna
+		dataType: string
+		lineageTag: 88663f23-1dc7-4b38-bd86-3c08be9b6eb3
+		sourceLineageTag: codigo_comuna
+		summarizeBy: none
+		sourceColumn: codigo_comuna
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_comuna
+		dataType: string
+		lineageTag: af749039-15b5-4bc3-9e7c-fd50445a747d
+		sourceLineageTag: nombre_comuna
+		summarizeBy: none
+		sourceColumn: nombre_comuna
+
+		annotation SummarizationSetBy = Automatic
+
+	partition diccionario_comunas = entity
+		mode: directLake
+		source
+			entityName: diccionario_comunas
+			schemaName: dbo
+			expressionSource: 'DirectLake - Data_LakeHouse'
+

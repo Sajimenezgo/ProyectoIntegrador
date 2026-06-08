@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "MLExperiment",
+    "displayName": "EDA_ECV"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3eb5f686-65bc-9d1d-4c65-53f8d9a67e02"
+  }
+}

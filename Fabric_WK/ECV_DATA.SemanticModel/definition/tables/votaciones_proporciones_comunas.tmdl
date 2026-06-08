@@ -1,0 +1,72 @@
+table votaciones_proporciones_comunas
+	lineageTag: 8df26407-d291-437b-80f3-872ec52f9e9d
+	sourceLineageTag: [dbo].[votaciones_proporciones_comunas]
+
+	column anio
+		dataType: int64
+		formatString: 0
+		lineageTag: 12ab7957-612f-4925-8296-c6709228da0b
+		sourceLineageTag: anio
+		summarizeBy: sum
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column corporacion
+		dataType: string
+		lineageTag: f2fe7fbb-836e-4201-be41-1caa31467b3c
+		sourceLineageTag: corporacion
+		summarizeBy: none
+		sourceColumn: corporacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column codigo_comuna
+		dataType: string
+		lineageTag: 993d9b90-2e39-4285-b427-c31779f0bcb2
+		sourceLineageTag: codigo_comuna
+		summarizeBy: none
+		sourceColumn: codigo_comuna
+
+		annotation SummarizationSetBy = Automatic
+
+	column izquierda
+		dataType: double
+		lineageTag: 8f854056-bf67-4a58-85f0-15c110fdcbd9
+		sourceLineageTag: izquierda
+		summarizeBy: sum
+		sourceColumn: izquierda
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column centro
+		dataType: double
+		lineageTag: 17c541f0-030c-4c2b-a56e-49b870cf5804
+		sourceLineageTag: centro
+		summarizeBy: sum
+		sourceColumn: centro
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column derecha
+		dataType: double
+		lineageTag: 79b95ea8-f0df-4ffb-9b2d-95af23b4025b
+		sourceLineageTag: derecha
+		summarizeBy: sum
+		sourceColumn: derecha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition votaciones_proporciones_comunas = entity
+		mode: directLake
+		source
+			entityName: votaciones_proporciones_comunas
+			schemaName: dbo
+			expressionSource: 'DirectLake - Data_LakeHouse'
+

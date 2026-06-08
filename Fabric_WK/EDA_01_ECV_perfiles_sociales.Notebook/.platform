@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "EDA_01_ECV_perfiles_sociales"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "81d47e2d-3b5b-b627-4b33-06b859104f41"
+  }
+}

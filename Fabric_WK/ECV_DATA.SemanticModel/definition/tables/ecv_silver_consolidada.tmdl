@@ -1,0 +1,795 @@
+table ecv_silver_consolidada
+	lineageTag: 07c0f6c5-63a9-46a2-84ba-78c843b3335a
+	sourceLineageTag: [dbo].[ecv_silver_consolidada]
+
+	column YEAR
+		dataType: int64
+		formatString: 0
+		lineageTag: 120dd281-a611-499c-a959-2bca38af68ac
+		sourceLineageTag: YEAR
+		summarizeBy: sum
+		sourceColumn: YEAR
+
+		annotation SummarizationSetBy = Automatic
+
+	column EDUCACION_STD
+		dataType: string
+		lineageTag: 8577458f-2eaf-41de-8990-4f3f11963dd4
+		sourceLineageTag: EDUCACION_STD
+		summarizeBy: none
+		sourceColumn: EDUCACION_STD
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_35
+		dataType: string
+		lineageTag: 7da0d58b-9592-45a2-9b35-544404d48c2a
+		sourceLineageTag: P_35
+		summarizeBy: none
+		sourceColumn: P_35
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_127
+		dataType: string
+		lineageTag: 24cfa387-6b05-4698-849d-dd9ca2643f5a
+		sourceLineageTag: P_127
+		summarizeBy: none
+		sourceColumn: P_127
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_128
+		dataType: string
+		lineageTag: 8d471ad2-9e55-4a70-a60b-6f1b2e9f9ec9
+		sourceLineageTag: P_128
+		summarizeBy: none
+		sourceColumn: P_128
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_129
+		dataType: string
+		lineageTag: 72e85011-7dbe-441c-bd73-471abadc3d9f
+		sourceLineageTag: P_129
+		summarizeBy: none
+		sourceColumn: P_129
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_158
+		dataType: string
+		lineageTag: b3491c1e-cf8a-4e30-8cb1-4146ec01ac36
+		sourceLineageTag: P_158
+		summarizeBy: none
+		sourceColumn: P_158
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_162
+		dataType: string
+		lineageTag: 43f7b408-3843-4c9e-ad49-99ba4fc691aa
+		sourceLineageTag: P_162
+		summarizeBy: none
+		sourceColumn: P_162
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_165
+		dataType: string
+		lineageTag: 85a29a12-32c3-4f98-a4bf-4a4ff5864c6f
+		sourceLineageTag: P_165
+		summarizeBy: none
+		sourceColumn: P_165
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_167
+		dataType: string
+		lineageTag: e2e02898-2411-401e-b5c4-772d82cb43f6
+		sourceLineageTag: P_167
+		summarizeBy: none
+		sourceColumn: P_167
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_171
+		dataType: string
+		lineageTag: d4d22d5f-6152-461a-a6d5-9e6614a8fd51
+		sourceLineageTag: P_171
+		summarizeBy: none
+		sourceColumn: P_171
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_174
+		dataType: string
+		lineageTag: 38142f0c-aa78-421e-a16f-f2b9c676ba00
+		sourceLineageTag: P_174
+		summarizeBy: none
+		sourceColumn: P_174
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_178
+		dataType: string
+		lineageTag: 7898d641-6725-4ea0-a214-bc385befcae0
+		sourceLineageTag: P_178
+		summarizeBy: none
+		sourceColumn: P_178
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_176
+		dataType: string
+		lineageTag: 69dc1c4d-de61-4f3e-8660-ef50d6f39466
+		sourceLineageTag: P_176
+		summarizeBy: none
+		sourceColumn: P_176
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_159
+		dataType: string
+		lineageTag: b5d2e884-f18a-4ffb-8833-5dc20ea2cb7c
+		sourceLineageTag: P_159
+		summarizeBy: none
+		sourceColumn: P_159
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_163
+		dataType: string
+		lineageTag: 44fac1dc-0016-49a9-bf1f-5edde3ff900e
+		sourceLineageTag: P_163
+		summarizeBy: none
+		sourceColumn: P_163
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_166
+		dataType: string
+		lineageTag: 95219f67-698e-4dc3-acc1-d33b358a1e57
+		sourceLineageTag: P_166
+		summarizeBy: none
+		sourceColumn: P_166
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_168
+		dataType: string
+		lineageTag: 4eeecdde-aeef-44c9-bf99-8566c7249002
+		sourceLineageTag: P_168
+		summarizeBy: none
+		sourceColumn: P_168
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_172
+		dataType: string
+		lineageTag: f80bb8dc-5104-4253-b10d-2427d59ed3ad
+		sourceLineageTag: P_172
+		summarizeBy: none
+		sourceColumn: P_172
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_175
+		dataType: string
+		lineageTag: 97347190-47c0-4429-ac09-f499677729c1
+		sourceLineageTag: P_175
+		summarizeBy: none
+		sourceColumn: P_175
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_177
+		dataType: string
+		lineageTag: 489cdbd6-b91a-4442-8bbf-3beed60686aa
+		sourceLineageTag: P_177
+		summarizeBy: none
+		sourceColumn: P_177
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_179
+		dataType: string
+		lineageTag: ab1bcd6c-3390-4bf6-b806-e5248af1e75f
+		sourceLineageTag: P_179
+		summarizeBy: none
+		sourceColumn: P_179
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_160
+		dataType: string
+		lineageTag: f67fa881-6194-4693-a300-a251cbef9a44
+		sourceLineageTag: P_160
+		summarizeBy: none
+		sourceColumn: P_160
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_164
+		dataType: string
+		lineageTag: b605279e-d52d-4126-83cc-256f013d5132
+		sourceLineageTag: P_164
+		summarizeBy: none
+		sourceColumn: P_164
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_169
+		dataType: string
+		lineageTag: 36f8983f-16ee-45f9-9534-cb9b2f91deca
+		sourceLineageTag: P_169
+		summarizeBy: none
+		sourceColumn: P_169
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_173
+		dataType: string
+		lineageTag: df709d46-d8a4-478c-9d21-fd307a7e0197
+		sourceLineageTag: P_173
+		summarizeBy: none
+		sourceColumn: P_173
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_180
+		dataType: string
+		lineageTag: 76ad98d2-c39d-4ede-8f5e-50877ab1b7fa
+		sourceLineageTag: P_180
+		summarizeBy: none
+		sourceColumn: P_180
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_161
+		dataType: string
+		lineageTag: 5f09e24e-f381-4a3a-9d06-c2febcb5345c
+		sourceLineageTag: P_161
+		summarizeBy: none
+		sourceColumn: P_161
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_170
+		dataType: string
+		lineageTag: f872c242-e251-4366-b872-5ba275ff6e96
+		sourceLineageTag: P_170
+		summarizeBy: none
+		sourceColumn: P_170
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_181
+		dataType: string
+		lineageTag: 0134ba87-a805-4603-aba2-3a996363a825
+		sourceLineageTag: P_181
+		summarizeBy: none
+		sourceColumn: P_181
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_267
+		dataType: string
+		lineageTag: 81969b62-d8f9-44a6-87c4-fca10b99615a
+		sourceLineageTag: P_267
+		summarizeBy: none
+		sourceColumn: P_267
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_268
+		dataType: string
+		lineageTag: 653bc29f-acfd-4d5c-a604-28e84141b058
+		sourceLineageTag: P_268
+		summarizeBy: none
+		sourceColumn: P_268
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_271
+		dataType: string
+		lineageTag: cd86cadc-21b5-427c-b9b6-479da6c6915f
+		sourceLineageTag: P_271
+		summarizeBy: none
+		sourceColumn: P_271
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_273
+		dataType: string
+		lineageTag: e6daa7d4-69eb-4e6c-ad8f-f5f2a867c778
+		sourceLineageTag: P_273
+		summarizeBy: none
+		sourceColumn: P_273
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_274
+		dataType: string
+		lineageTag: 4c011613-4c04-4509-9c9c-13a4857620c8
+		sourceLineageTag: P_274
+		summarizeBy: none
+		sourceColumn: P_274
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_275
+		dataType: string
+		lineageTag: 715ee447-d607-4596-bc06-0d826e355c8c
+		sourceLineageTag: P_275
+		summarizeBy: none
+		sourceColumn: P_275
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_312
+		dataType: string
+		lineageTag: e74f6ada-1d65-4cbd-bdb1-7895c823becb
+		sourceLineageTag: P_312
+		summarizeBy: none
+		sourceColumn: P_312
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_315
+		dataType: string
+		lineageTag: c02aaf09-7f2f-4902-8503-5431ba519f23
+		sourceLineageTag: P_315
+		summarizeBy: none
+		sourceColumn: P_315
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_316
+		dataType: string
+		lineageTag: 83518708-16b6-4e94-9a16-1efad3c6ee95
+		sourceLineageTag: P_316
+		summarizeBy: none
+		sourceColumn: P_316
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_317
+		dataType: string
+		lineageTag: ead0bff0-c41f-43f0-9456-76e7418f1ed1
+		sourceLineageTag: P_317
+		summarizeBy: none
+		sourceColumn: P_317
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_318
+		dataType: string
+		lineageTag: 6813b7e6-4b5b-4fea-bbe0-989da970a405
+		sourceLineageTag: P_318
+		summarizeBy: none
+		sourceColumn: P_318
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_319
+		dataType: string
+		lineageTag: 7de9f45b-f2ab-45f1-ac20-57775e176ab6
+		sourceLineageTag: P_319
+		summarizeBy: none
+		sourceColumn: P_319
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_320
+		dataType: string
+		lineageTag: 871434fc-1925-4123-a4b8-93967c96579e
+		sourceLineageTag: P_320
+		summarizeBy: none
+		sourceColumn: P_320
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_66
+		dataType: string
+		lineageTag: 907e7d61-693b-4f16-b4a5-fd1d44bc6776
+		sourceLineageTag: P_66
+		summarizeBy: none
+		sourceColumn: P_66
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_272
+		dataType: string
+		lineageTag: 2732c8da-0ca7-43a6-959a-b20d7d0498ab
+		sourceLineageTag: P_272
+		summarizeBy: none
+		sourceColumn: P_272
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_280
+		dataType: string
+		lineageTag: 0ce96dee-3081-492c-8f6f-6a9f19a3bd98
+		sourceLineageTag: P_280
+		summarizeBy: none
+		sourceColumn: P_280
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_291
+		dataType: string
+		lineageTag: 8562771d-edde-4677-81c5-8a69e94df65b
+		sourceLineageTag: P_291
+		summarizeBy: none
+		sourceColumn: P_291
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_293
+		dataType: string
+		lineageTag: 5761c1e7-d747-45c9-87bd-a9d812e0dd52
+		sourceLineageTag: P_293
+		summarizeBy: none
+		sourceColumn: P_293
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_294
+		dataType: string
+		lineageTag: d8b324ab-d507-4a21-aded-13637ba66ded
+		sourceLineageTag: P_294
+		summarizeBy: none
+		sourceColumn: P_294
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_295
+		dataType: string
+		lineageTag: 5933e1c6-6179-465d-819a-3664e3eeb544
+		sourceLineageTag: P_295
+		summarizeBy: none
+		sourceColumn: P_295
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_296
+		dataType: string
+		lineageTag: 948ac532-0bb8-4d43-b6b6-20d839316e1e
+		sourceLineageTag: P_296
+		summarizeBy: none
+		sourceColumn: P_296
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_297
+		dataType: string
+		lineageTag: 9bf42461-56d7-43e1-8812-bb441a69e1df
+		sourceLineageTag: P_297
+		summarizeBy: none
+		sourceColumn: P_297
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_298
+		dataType: string
+		lineageTag: a4602357-f80b-4d9a-bc1a-8852981805d7
+		sourceLineageTag: P_298
+		summarizeBy: none
+		sourceColumn: P_298
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_299
+		dataType: string
+		lineageTag: fb0bd552-e9b5-4fb7-afad-bd3a32ff9d65
+		sourceLineageTag: P_299
+		summarizeBy: none
+		sourceColumn: P_299
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_302
+		dataType: string
+		lineageTag: 817b1b24-db92-4eb4-898c-11254012b9f9
+		sourceLineageTag: P_302
+		summarizeBy: none
+		sourceColumn: P_302
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_303
+		dataType: string
+		lineageTag: 07874dfe-b2e1-4566-96d3-4ed5ec9f923b
+		sourceLineageTag: P_303
+		summarizeBy: none
+		sourceColumn: P_303
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_304
+		dataType: string
+		lineageTag: 02418b30-0602-43df-89d5-09a572f946fc
+		sourceLineageTag: P_304
+		summarizeBy: none
+		sourceColumn: P_304
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_305
+		dataType: string
+		lineageTag: 96d23c67-fe50-44be-b968-b413f4ba4955
+		sourceLineageTag: P_305
+		summarizeBy: none
+		sourceColumn: P_305
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERSONAS_HOGAR_STD
+		dataType: string
+		lineageTag: dd827376-021b-440c-b2af-168e81c29d85
+		sourceLineageTag: PERSONAS_HOGAR_STD
+		summarizeBy: none
+		sourceColumn: PERSONAS_HOGAR_STD
+
+		annotation SummarizationSetBy = Automatic
+
+	column HABITACIONES_STD
+		dataType: string
+		lineageTag: 51bc1949-9518-4029-bcd5-7c44fb7bedfe
+		sourceLineageTag: HABITACIONES_STD
+		summarizeBy: none
+		sourceColumn: HABITACIONES_STD
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_189
+		dataType: string
+		lineageTag: b47a38e1-e54a-43ad-b12c-0ea3d0527da2
+		sourceLineageTag: P_189
+		summarizeBy: none
+		sourceColumn: P_189
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_190
+		dataType: string
+		lineageTag: 264627e9-12dc-4dd2-8567-296c5a3bd8fc
+		sourceLineageTag: P_190
+		summarizeBy: none
+		sourceColumn: P_190
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_191
+		dataType: string
+		lineageTag: 255148ee-5848-4c67-a884-54168ec333f9
+		sourceLineageTag: P_191
+		summarizeBy: none
+		sourceColumn: P_191
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_192
+		dataType: string
+		lineageTag: 26b710e1-703d-44fd-a0d0-132242631651
+		sourceLineageTag: P_192
+		summarizeBy: none
+		sourceColumn: P_192
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_193
+		dataType: string
+		lineageTag: 4b2385fa-6161-4d6c-982b-f69146db4687
+		sourceLineageTag: P_193
+		summarizeBy: none
+		sourceColumn: P_193
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_194
+		dataType: string
+		lineageTag: af644b44-14a1-4c1d-ba5f-6ba983ff5c8b
+		sourceLineageTag: P_194
+		summarizeBy: none
+		sourceColumn: P_194
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_195
+		dataType: string
+		lineageTag: 4014e0fb-e06f-4eb3-9032-8b3d4f8b8f62
+		sourceLineageTag: P_195
+		summarizeBy: none
+		sourceColumn: P_195
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_196
+		dataType: string
+		lineageTag: d5450b9a-8c5f-4494-9bbf-bb75f748fe7e
+		sourceLineageTag: P_196
+		summarizeBy: none
+		sourceColumn: P_196
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_197
+		dataType: string
+		lineageTag: 991885ee-d290-4e21-9c8d-8720c0fe0684
+		sourceLineageTag: P_197
+		summarizeBy: none
+		sourceColumn: P_197
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_198
+		dataType: string
+		lineageTag: db9f0860-7b21-4b30-bcdb-392132b5a889
+		sourceLineageTag: P_198
+		summarizeBy: none
+		sourceColumn: P_198
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_199
+		dataType: string
+		lineageTag: 7a5bce1d-c8a2-4c29-9cca-ae6c8dbe2be2
+		sourceLineageTag: P_199
+		summarizeBy: none
+		sourceColumn: P_199
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_200
+		dataType: string
+		lineageTag: e720afa0-d279-4200-8994-d2df5fdc1541
+		sourceLineageTag: P_200
+		summarizeBy: none
+		sourceColumn: P_200
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_201
+		dataType: string
+		lineageTag: ad4246f3-cca6-4839-8880-e74db6d25498
+		sourceLineageTag: P_201
+		summarizeBy: none
+		sourceColumn: P_201
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_202
+		dataType: string
+		lineageTag: 798a9c32-bb1d-444a-bbc8-31054b3e55ea
+		sourceLineageTag: P_202
+		summarizeBy: none
+		sourceColumn: P_202
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_203
+		dataType: string
+		lineageTag: 13c3db5a-8cfd-4a2d-b54e-3013646f424c
+		sourceLineageTag: P_203
+		summarizeBy: none
+		sourceColumn: P_203
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_204
+		dataType: string
+		lineageTag: b4330b41-2411-4aee-aaed-17c342c20a3d
+		sourceLineageTag: P_204
+		summarizeBy: none
+		sourceColumn: P_204
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_205
+		dataType: string
+		lineageTag: e7eda107-a5e4-4868-b5b7-05d36a042a75
+		sourceLineageTag: P_205
+		summarizeBy: none
+		sourceColumn: P_205
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_206
+		dataType: string
+		lineageTag: 4c440090-0af6-43fd-bb4b-960bc85d8b9c
+		sourceLineageTag: P_206
+		summarizeBy: none
+		sourceColumn: P_206
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_207
+		dataType: string
+		lineageTag: 3d2d8513-871d-4b70-a4db-a9a2d15a68d4
+		sourceLineageTag: P_207
+		summarizeBy: none
+		sourceColumn: P_207
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_208
+		dataType: string
+		lineageTag: 28589c39-f6e7-4cd9-9d93-643981c5b486
+		sourceLineageTag: P_208
+		summarizeBy: none
+		sourceColumn: P_208
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_209
+		dataType: string
+		lineageTag: 4acc60f0-ee8a-4921-9dbc-661b1d2a56f8
+		sourceLineageTag: P_209
+		summarizeBy: none
+		sourceColumn: P_209
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_210
+		dataType: string
+		lineageTag: 8db67fa0-8c93-433d-ab0d-b30ceb7c3fcd
+		sourceLineageTag: P_210
+		summarizeBy: none
+		sourceColumn: P_210
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_212
+		dataType: string
+		lineageTag: 558c04f2-ea5e-4069-84d5-ce07ab803553
+		sourceLineageTag: P_212
+		summarizeBy: none
+		sourceColumn: P_212
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_213
+		dataType: string
+		lineageTag: f988ad28-6968-4b6c-9982-f4103ac89a49
+		sourceLineageTag: P_213
+		summarizeBy: none
+		sourceColumn: P_213
+
+		annotation SummarizationSetBy = Automatic
+
+	column P_214
+		dataType: string
+		lineageTag: 42663a40-5134-45ef-b0cd-ff257c46067e
+		sourceLineageTag: P_214
+		summarizeBy: none
+		sourceColumn: P_214
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTRATO_STD
+		dataType: string
+		lineageTag: dabcb504-5972-430f-960e-3eb861147ebf
+		sourceLineageTag: ESTRATO_STD
+		summarizeBy: none
+		sourceColumn: ESTRATO_STD
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMUNA_STD
+		dataType: string
+		lineageTag: 47be0e1a-4539-4de7-82be-08131bd31d1b
+		sourceLineageTag: COMUNA_STD
+		summarizeBy: none
+		sourceColumn: COMUNA_STD
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ecv_silver_consolidada = entity
+		mode: directLake
+		source
+			entityName: ecv_silver_consolidada
+			schemaName: dbo
+			expressionSource: 'DirectLake - Data_LakeHouse'
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "MLExperiment",
+    "displayName": "dirichlet_ecv"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e5eafe99-aa8b-9e4a-42ad-a2a1cae884ba"
+  }
+}

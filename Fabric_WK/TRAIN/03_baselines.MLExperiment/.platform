@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "MLExperiment",
+    "displayName": "03_baselines"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a285fc41-cbf0-bece-45a2-7e489ecaaf0f"
+  }
+}

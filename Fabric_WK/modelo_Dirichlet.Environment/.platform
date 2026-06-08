@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Environment",
+    "displayName": "modelo_Dirichlet",
+    "description": "Entorno"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "fb367a89-4536-9258-4a2b-fbe8505eec4d"
+  }
+}
